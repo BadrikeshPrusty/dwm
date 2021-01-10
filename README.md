@@ -5,18 +5,14 @@ Patches applied:
 1. activetagindicatorbar: To display rectangle on the tags if a window is opened on that tag.
 2. actualfullscreen: To toggle fullscreen for a window without changing to monocle layout with a key-binding.
 3. attachasideandbelow: To open a newly spawned window in stack area instead of master and also to spawn new window below the currently stack window instead of top.
-4. cfacts: To add ability to resize stacked windows.
-5. cfacts_bottomstack: To add a buttomstack(wide) layout with stacked windows resize capability.
-6. cool-autostart: To autostart the applications on startup.
-7. cyclelayouts: To cycle through all the layouts with a key-binding.
-8. ewmhtags: To add a workspace like feature to tags so that other panels such as polybar can be used instead of inbuilt-panel.
-9. fancybar: To display all the opened window names on the panel.
-10. fixborders: To make the transparent borders of a window opaque for better visibility.
-11. focusonnetactive: To add switch between windows from rofi menu.
-12. pertag: For not to change the layout and config of other tags(workspaces) if changed on current.
-13. restartsig: To restart dwm on the fly with a key-binding.
-14. systray: To add systray capability on the panel.
-15. uselessgap: To add empty gaps between the windows.
+4. cfacts-vanitygaps: To add all the layouts, resize stack windows, inner and outer gaps.
+5. cool-autostart: To autostart the applications on startup.
+6. cyclelayouts: To cycle through all the layouts with a key-binding.
+7. fixborders: To make the transparent borders of a window opaque for better visibility.
+8. focusonnetactive: To add switch between windows from rofi menu.
+9. pertag: For not to change the layout and config of other tags(workspaces) if changed on current.
+10. restartsig: To restart dwm on the fly with a key-binding.
+11. systray: To add systray capability on the panel.
 
 
 Dependencies:
@@ -26,18 +22,17 @@ Dependencies:
 4. alacritty(terminal emulator)
 5. picom(compositor for transparency)
 6. scrot(screenshot application)
-7. dwmblocks(to display time and other information on the panel)
-8. network-manager-applet(to configure network connections)
-9. volumeicon(systray icon to change volume)
-10. feh(to set wallpapers)
-11. xfce4-power-manager(to manager power settings)
-12. xfce4-screensaver(for lock screen)
-13. redshift(to change color temperature of the display)
-14. dunst(for notifications)
-15. polkit, polkit-gnome, gnome-keyring
-16. Thunar(file manager)
-17. Fonts: nerd-fonts-mononoki, ttf-hack, ttf-joypixels.
-18. imagemagick(to display fonts)
+7. network-manager-applet(to configure network connections)
+8. volumeicon(systray icon to change volume)
+9. feh(to set wallpapers)
+10. xfce4-power-manager(to manager power settings)
+11. xfce4-screensaver(for lock screen)
+12. redshift(to change color temperature of the display)
+13. dunst(for notifications)
+14. polkit, polkit-gnome, gnome-keyring
+15. Thunar(file manager)
+16. Fonts: nerd-fonts-mononoki, ttf-hack, ttf-joypixels.
+17. imagemagick(to display fonts)
 
 
 Important Key-bindings:
