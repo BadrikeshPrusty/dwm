@@ -9,15 +9,14 @@ Patches applied:
 5. cool-autostart: To autostart the applications on startup.
 6. cyclelayouts: To cycle through all the layouts with a key-binding.
 7. fixborders: To make the transparent borders of a window opaque for better visibility.
-8. focusonnetactive: To add switch between windows from rofi menu.
-9. pertag: For not to change the layout and config of other tags(workspaces) if changed on current.
-10. restartsig: To restart dwm on the fly with a key-binding.
-11. systray: To add systray capability on the panel.
+8. pertag: For not to change the layout and config of other tags(workspaces) if changed on current.
+9. restartsig: To restart dwm on the fly with a key-binding.
+10. systray: To add systray capability on the panel.
 
 
 Dependencies:
 1. dmenu(for run prompt, screenshot, power menu, and display fonts) (My build of dmenu: https://github.com/BadrikeshPrusty/dmenu)
-2. rofi(To run .desktop files, switch between active windows and emoji-picker)
+2. rofi(To run .desktop files and emoji-picker)
 3. libxft-bgra-git(color emoji support for dmenu and dwm panel)
 4. alacritty(terminal emulator)
 5. picom(compositor for transparency)
@@ -43,11 +42,10 @@ Important Key-bindings:
 5. Super + d              : Run .desktop files(rofi)
 6. Super + b              : Open browser (firefox)
 7. Super + g              : Open Google-chrome
-8. Super + w              : Open Window Swicher(rofi)
-9. Super + Print          : Screenshot menu
-10. Super + Shift + p     : Power menu
-11. Super + Shift + r     : Restart Window manager
-12. Super + Shift + x     : Exit window manager
+8. Super + Print          : Screenshot menu
+9. Super + Shift + p     : Power menu
+10. Super + Shift + r     : Restart Window manager
+11. Super + Shift + x     : Exit window manager
 
 
 To Install:
